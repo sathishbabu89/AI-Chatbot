@@ -14,6 +14,20 @@ Run the following commands to create and activate a virtual environment:
 python -m venv my_env
 .\my_env\Scripts\activate  # On Windows PowerShell
 
+Using pip freeze
+First, make sure you have a virtual environment activated.
+
+Install all the required packages for your project using pip.
+
+Generate the requirements file by running:
+pip freeze > requirements.txt
+
+                            
+How to Use the requirements.txt File:
+
+pip install -r requirements.txt
+
+                            
 Install Required Packages
 -------------------------
 With the virtual environment activated, install spaCy, transformers, and pypdf:
